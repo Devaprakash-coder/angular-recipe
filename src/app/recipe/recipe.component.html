@@ -1,0 +1,74 @@
+<nav>
+    <ul>
+        <a href=""><img src="/./assets/images/lab.png" alt="icon"></a>
+        <li><a href="http://www.recipepuppy.com/advanced?">Create a Recipe</a></li>
+        <li><a href="http://www.recipepuppy.com/advanced?">Daily Recipes by Email</a></li>
+        <li><a href="http://www.recipepuppy.com/advanced?">Ingredient Pairings</a></li>
+        <li><a href="http://www.recipepuppy.com/advanced?">Restaurant Coupons</a></li>
+        <li><a href="http://www.recipepuppy.com/advanced?">Recipe Search by Ingredients</a></li>
+    </ul>
+</nav>
+<div class="container">
+    <header>
+        <a href="" class="logo"><img src="/./assets/images/puppy.png" alt="image"></a>
+        <label for="search">Search by Ingredients (comma separated):</label>
+            <input type="text" name="title" #title />      
+        <button (click)="show(title.value)">Search</button>
+        <a href="">Advance search</a>
+    </header>
+    <section>
+        <h1>Recipe Puppy is an ingredient based recipe search engine.</h1>
+        <h2>Enter your ingredients above or try an example search:</h2>
+        <a href="Potato Pancake Recipes with onions and eggs but without green onions">Potato Pancake Recipes with
+            onions and eggs but without green onions</a>
+        <h2>Already know what you want to make?</h2>
+        <a href="">Use CookThing Now</a>
+        <h2>Have a Cooking Question?</h2>
+        <a href="">Ask Recipe Labs</a>
+    </section>
+    <footer>
+        <ul>
+            <li>About</li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Blog</a></li>
+        </ul>
+        <ul>
+            <li>On the Web</li>
+            <li><a href="">Facebook</a></li>
+            <li><a href=""> Twitter</a></li>
+            <li><a href="">Twitter Recipe Search Bot</a></li>
+        </ul>
+        <ul>
+            <li>Tools</li>
+            <li><a href="">Add to your Website</a></li>
+            <li><a href="">API</a></li>
+            <li><a href="">Search alongside Google</a></li>
+            <li><a href="">Recipe Puppy for iPhone</a></li>
+            <li><a href="">Vegetarian Search</a></li>
+            <li><a href="">Vegan Search</a></li>
+        </ul>
+        <ul>
+            <li>More</li>
+            <li><a href="">Submit your Recipe</a></li>
+            <li><a href="">Cooking Q&A</a></li>
+            <li><a href="">Online Grocery Delivery</a></li>
+            <li><a href="">Restaurant Gift Certificates</a></li>
+            <li><a href="">Restaurant Coupons</a></li>
+            <li><a href="">Store</a></li>
+        </ul>
+        <ul>
+            <li>©2021 RecipePuppy.com</li>
+            <li><a href="">Daily Recipes Email</a></li>
+        </ul>
+    </footer>
+</div>
+<!-- <mat-form-field>
+    <input matInput type="text" [matAutocomplete]="auto" name="title" #title />
+    <mat-autocomplete #auto="matAutocomplete">
+        <mat-option *ngFor="let option of options" [value]="option.title">
+            {{option.title}}
+        </mat-option>
+    </mat-autocomplete>
+</mat-form-field> -->

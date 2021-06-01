@@ -1,0 +1,10 @@
+<h1>COOK</h1>
+<div *ngFor = "let post of posts$">
+  <ul>
+    <li>{{post.title}}</li>
+    <li>{{post.ingredients}}</li>
+    <li><img src="{{post.thumbnail}}"></li>
+    <li><a href="{{post.href}}">{{post.href}}</a></li>
+  </ul>
+  
+</div>
